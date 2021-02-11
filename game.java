@@ -3,7 +3,6 @@ import java.util.Random;
 
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
-i
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JButton;
