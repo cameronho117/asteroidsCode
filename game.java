@@ -24,12 +24,14 @@ import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 
-public class Asteroids{
+public class Asteroids
+{
 	public Asteroids(){
 		setup();
 	}
 
-	public static void setup(){
+	public static void setup()
+	{
 		appFrame = new JFrame("Asteroids");
 		XOFFSET = 0;
 		YOFFSET = 40;
@@ -58,7 +60,8 @@ public class Asteroids{
 		ast1width = 32;
 		ast2width = 21;
 		ast3width = 26;
-		try{
+		try
+		{
 			background = ImageIO.read(new File("space.png"));
 			player = ImageIO.read(new File("player.png"));
 			flame1 = ImageIO.read(new File("flameleft.png"));
@@ -210,7 +213,7 @@ private static class PlayerMover implements Runnable
 }
 	private double velocitystep;
 	private double rotatestep;
-}
+
 
 private static class FlameMover implements Runnable
 {
@@ -1356,7 +1359,7 @@ private static final int IFW = JComponent.WHEN_IN_FOCUSED_WINDOW;
 
 
 
-
+}
 
 
 
