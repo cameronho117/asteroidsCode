@@ -437,7 +437,7 @@ private static class CollisionChecker implements Runnable
 							double posX == asteroids.elementAt(i).getX();
 							double posY == asteroids.elementAt(i).getY();
 
-							explosions.addElement(new ImageObject(posX, posY, 27, 24, 0, 0));
+							explosions.addElement(new ImageObject(posX, posY, 27, 24, 0.0));
 							explosionsTimes.addElement(System.currentTimeMillis());
 
 							if(asteroidsTypes.elementAt(i) == 1)
